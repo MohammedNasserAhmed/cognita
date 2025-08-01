@@ -86,12 +86,12 @@ Cognita integrates best-in-class tools to deliver a robust and modern applicatio
 
 | Category                | Tool                                                                                                   | Description                                                                                                   |
 | ----------------------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------- |
-| **Core AI Framework** | [**LlamaIndex**](https://www.llamaindex.ai/)                                                             | [cite\_start]The central nervous system for indexing, retrieval, and agentic logic[cite: 28, 41].                           |
+| **Core AI Framework** | [**LlamaIndex**](https://www.llamaindex.ai/)                                                             | The central nervous system for indexing, retrieval, and agentic logic.                           |
 | **LLM & Embeddings** | [**OpenAI**](https://openai.com/)                                                                        | Provides state-of-the-art models for generation and embedding. Easily swappable for other providers.        |
-| **Vector Database** | [**Weaviate**](https://weaviate.io/)                                                                     | [cite\_start]A powerful, scalable open-source vector database for storing and searching embeddings[cite: 29].               |
-| **Document Parsing** | [**LlamaParse**](https://www.google.com/search?q=https://docs.llamaindex.ai/en/stable/module_guides/loading/document_parsers/llama_parse/) | [cite\_start]https://www.google.com/search?q=Optional high-fidelity parser for complex documents like PDFs with tables and figures[cite: 32].           |
+| **Vector Database** | [**Weaviate**](https://weaviate.io/)                                                                     | A powerful, scalable open-source vector database for storing and searching embeddings.               |
+| **Document Parsing** | [**LlamaParse**](https://www.google.com/search?q=https://docs.llamaindex.ai/en/stable/module_guides/loading/document_parsers/llama_parse/) | https://www.google.com/search?q=Optional high-fidelity parser for complex documents like PDFs with tables and figures[cite: 32].           |
 | **API Framework** | [**FastAPI**](https://fastapi.tiangolo.com/)                                                             | Delivers a high-performance, asynchronous API for all interactions.                                           |
-| **Containerization** | [**Docker & Docker Compose**](https://www.docker.com/)                                                   | [cite\_start]For creating a reproducible, isolated, and easy-to-deploy environment[cite: 42].                                 |
+| **Containerization** | [**Docker & Docker Compose**](https://www.docker.com/)                                                   | For creating a reproducible, isolated, and easy-to-deploy environment.                                 |
 | **Dev & Quality Tools** | **Ruff, Black, pre-commit** | For automated linting, formatting, and ensuring high code quality before every commit.                        |
 
 ## 🚀 Getting Started
@@ -102,7 +102,7 @@ Get your own instance of Cognita running in just a few minutes.
 
   - [Docker](https://docs.docker.com/get-docker/) and [Docker Compose](https://docs.docker.com/compose/install/)
   - An **OpenAI API Key**.
-  - [cite\_start](https://www.google.com/search?q=Optional) A **LlamaParse API Key** for superior document parsing[cite: 32].
+  - (https://www.google.com/search?q=Optional) A **LlamaParse API Key** for superior document parsing.
 
 ### Installation Steps
 
