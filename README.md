@@ -1,11 +1,3 @@
-# Cognita 🧠 | Agentic RAG Engine
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python Version](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
-[![Framework: LlamaIndex](https://img.shields.io/badge/Framework-LlamaIndex-blueviolet)](https://www.llamaindex.ai/)
-[![API: FastAPI](https://img.shields.io/badge/API-FastAPI-green.svg)](https://fastapi.tiangolo.com/)
-[![Containerization: Docker](https://img.shields.io/badge/Container-Docker-blue.svg)](https://www.docker.com/)
-
 ---
 <div align="center">
   <br />
@@ -48,13 +40,13 @@ This project was developed to meet and exceed the specifications of a senior-lev
 
 ## 🌟 Key Features
 
-- **💬 Interactive Chat API**: A powerful FastAPI backend ready to power any frontend application.
-- [cite_start]**📄 Multi-Format Document Ingestion**: Upload PDFs, DOCs, and more through a simple API endpoint[cite: 5, 6]. [cite_start]LlamaParse integration ensures high-fidelity text extraction even from complex layouts[cite: 32].
-- [cite_start]**📚 Accurate, Cited Answers**: Every response is generated directly from the provided documents and includes precise citations with filename and page number, virtually eliminating hallucinations[cite: 3, 25, 63].
-- **🧠 Agentic Reasoning Core**: Moves beyond simple RAG by using an agentic loop. [cite_start]This allows for conversation memory and lays the groundwork for multi-step reasoning to tackle complex queries[cite: 3, 36, 38].
-- [cite_start]**🚫 Graceful "No Answer" Handling**: If the answer isn't in the documents, Cognita will clearly state that, preventing guesswork and maintaining user trust[cite: 26, 65].
-- **🧩 Modular & Extensible Design**: Built with clean, decoupled components, making it easy to swap vector databases, LLMs, or add new tools.
-- [cite_start]**🐳 Fully Containerized**: With Docker and Docker Compose, the entire stack (API + Vector DB) can be spun up with a single command, ensuring a smooth, reproducible setup[cite: 42, 48].
+* **💬 Interactive Chat API**: A powerful FastAPI backend ready to power any frontend application.
+* **📄 Multi-Format Document Ingestion**: Upload PDFs, DOCs, and more through a simple API endpoint. LlamaParse integration ensures high-fidelity text extraction even from complex layouts.
+* **📚 Accurate, Cited Answers**: Every response is generated directly from the provided documents and includes precise citations with filename and page number, virtually eliminating hallucinations.
+* **🧠 Agentic Reasoning Core**: Moves beyond simple RAG by using an agentic loop. This allows for conversation memory and lays the groundwork for multi-step reasoning to tackle complex queries.
+* **🚫 Graceful "No Answer" Handling**: If the answer isn't in the documents, Cognita will clearly state that, preventing guesswork and maintaining user trust.
+* **🧩 Modular & Extensible Design**: Built with clean, decoupled components, making it easy to swap vector databases, LLMs, or add new tools.
+* **🐳 Fully Containerized**: With Docker and Docker Compose, the entire stack (API + Vector DB) can be spun up with a single command, ensuring a smooth, reproducible setup.
 
 ## 🏗️ Architecture Deep Dive
 
