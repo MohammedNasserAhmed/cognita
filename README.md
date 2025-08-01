@@ -102,7 +102,7 @@ Get your own instance of Cognita running in just a few minutes.
 
   - [Docker](https://docs.docker.com/get-docker/) and [Docker Compose](https://docs.docker.com/compose/install/)
   - An **OpenAI API Key**.
-  - (https://www.google.com/search?q=Optional) A **LlamaParse API Key** for superior document parsing.
+  - A **LlamaParse API Key** for superior document parsing.
 
 ### Installation Steps
 
@@ -189,7 +189,7 @@ All major settings are controlled via environment variables for security and fle
 | `OPENAI_API_KEY`       | **Required.** Your API key for OpenAI services.       | `N/A`              |
 | `LLM_MODEL_NAME`       | The generation model to use.                          | `gpt-4-turbo`      |
 | `EMBEDDING_MODEL_NAME` | The embedding model to use.                           | `text-embedding-3-small` |
-| `LLAMA_CLOUD_API_KEY`  | https://www.google.com/search?q=Optional key for LlamaParse.                          | `None`             |
+| `LLAMA_CLOUD_API_KEY`  | key for LlamaParse.                                   | `None`             |
 | `WEAVIATE_URL`         | The URL for the Weaviate vector database.             | `http://weaviate:8080` |
 | `CHUNK_SIZE`           | Size of text chunks for the RAG pipeline.             | `1024`             |
 | `SIMILARITY_TOP_K`     | Number of relevant chunks to retrieve for each query. | `4`                |
