@@ -219,10 +219,9 @@ Cognita is a strong foundation. Here are some features we're excited about for t
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
 -----
-
-\<div align="center"\>
+<div align="center"\>
 \<em\>This project was completed to fulfill a technical assignment. Total time spent: \<strong\>8 hours\</strong\>.\</em\>
-\</div\>
+</div\>
 
 ```
 ```
