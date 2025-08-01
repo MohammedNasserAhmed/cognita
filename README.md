@@ -77,8 +77,8 @@ graph TD
     style F fill:#f9f,stroke:#333,stroke-width:2px
 ````
 
-1.  [cite\_start]**Ingestion Flow**: When a document is uploaded, it's processed by a pipeline that extracts text, splits it into manageable chunks, generates vector embeddings, and stores them in the Weaviate database[cite: 28, 29].
-2.  **Query Flow**: A user's question initiates the agentic loop. [cite\_start]The agent retrieves relevant text chunks from Weaviate, combines them with the conversation history, and uses the LLM to generate a coherent, accurate, and cited answer[cite: 3, 24, 25].
+1.  **Ingestion Flow**: When a document is uploaded, it's processed by a pipeline that extracts text, splits it into manageable chunks, generates vector embeddings, and stores them in the Weaviate database.
+2.  **Query Flow**: A user's question initiates the agentic loop. The agent retrieves relevant text chunks from Weaviate, combines them with the conversation history, and uses the LLM to generate a coherent, accurate, and cited answer.
 
 ## 🛠️ Tech Stack
 
@@ -89,7 +89,7 @@ Cognita integrates best-in-class tools to deliver a robust and modern applicatio
 | **Core AI Framework** | [**LlamaIndex**](https://www.llamaindex.ai/)                                                             | The central nervous system for indexing, retrieval, and agentic logic.                           |
 | **LLM & Embeddings** | [**OpenAI**](https://openai.com/)                                                                        | Provides state-of-the-art models for generation and embedding. Easily swappable for other providers.        |
 | **Vector Database** | [**Weaviate**](https://weaviate.io/)                                                                     | A powerful, scalable open-source vector database for storing and searching embeddings.               |
-| **Document Parsing** | [**LlamaParse**](https://www.google.com/search?q=https://docs.llamaindex.ai/en/stable/module_guides/loading/document_parsers/llama_parse/) | https://www.google.com/search?q=Optional high-fidelity parser for complex documents like PDFs with tables and figures[cite: 32].           |
+| **Document Parsing** | [**LlamaParse**](https://www.google.com/search?q=https://docs.llamaindex.ai/en/stable/module_guides/loading/document_parsers/llama_parse/) | https://www.google.com/search?q=Optional high-fidelity parser for complex documents like PDFs with tables and figures.           |
 | **API Framework** | [**FastAPI**](https://fastapi.tiangolo.com/)                                                             | Delivers a high-performance, asynchronous API for all interactions.                                           |
 | **Containerization** | [**Docker & Docker Compose**](https://www.docker.com/)                                                   | For creating a reproducible, isolated, and easy-to-deploy environment.                                 |
 | **Dev & Quality Tools** | **Ruff, Black, pre-commit** | For automated linting, formatting, and ensuring high code quality before every commit.                        |
